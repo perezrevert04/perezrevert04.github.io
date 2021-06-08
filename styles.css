@@ -59,6 +59,12 @@ main {
   padding-top: 12rem;
 }
 
+#experiencia-laboral .title-underline {
+  height: 2px;
+  margin: auto;
+  width: 285px;
+}
+
 .main-timeline {
   position: relative
 }
@@ -178,6 +184,44 @@ main {
   left: -6px
 }
 
+#display-none-studio .date-outer:before,
+#display-none-studio .icon:before {
+  border-color: #2f2f2f;
+}
+
+#display-none-studio .date-outer:after,
+#display-none-studio .icon:after {
+  border-color: #d84763;
+}
+
+#epigram .date-outer:before,
+#epigram .icon:before
+ {
+  border-color: #D5184C;
+}
+
+#stadler-rail .date-outer:before,
+#stadler-rail .icon:before
+ {
+  border-color: #0b3f75;
+}
+
+#stadler-rail .date-outer:after,
+#stadler-rail .icon:after {
+  border-color: #ffbd00;
+}
+
+#ajuntament-moixent .date-outer:before,
+#ajuntament-moixent .icon:before
+ {
+  border-color: #0f47af;
+}
+
+#ajuntament-moixent .date-outer:after,
+#ajuntament-moixent .icon:after {
+  border-color: #cab313;
+}
+
 .main-timeline .date-outer:after {
   border: 2px solid #c6c6c6;
   left: 6px
@@ -222,7 +266,7 @@ main {
   font-size: 19px;
   font-weight: 700;
   line-height: 24px;
-  margin: 0 0 15px 0
+  margin: 0;
 }
 
 .main-timeline .description {
