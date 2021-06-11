@@ -51,6 +51,12 @@ main {
   width: 285px;
 }
 
+#formacion-academica .title-underline {
+  height: 2px;
+  margin: auto;
+  width: 320px;
+}
+
 .main-timeline {
   position: relative
 }
@@ -217,6 +223,39 @@ main {
 #ajuntament-moixent .date-outer:after,
 #ajuntament-moixent .icon:after {
   border-color: #cab313;
+}
+
+#android-introducion-programacion .date-outer:before,
+#android-introducion-programacion .icon:before
+ {
+  border-color: #33691E;
+}
+
+#android-introducion-programacion .date-outer:after,
+#android-introducion-programacion .icon:after {
+  border-color: #A4C739;
+}
+
+#desarrollo-aplicaciones-web-php-mysql .date-outer:before,
+#desarrollo-aplicaciones-web-php-mysql .icon:before
+ {
+  border-color: #454886;
+}
+
+#desarrollo-aplicaciones-web-php-mysql .date-outer:after,
+#desarrollo-aplicaciones-web-php-mysql .icon:after {
+  border-color: #AAADCF;
+}
+
+#ingenieria-informatica-upv .date-outer:before,
+#ingenieria-informatica-upv .icon:before
+ {
+  border-color: #CC0000;
+}
+
+#ingenieria-informatica-upv .date-outer:after,
+#ingenieria-informatica-upv .icon:after {
+  border-color: #313233;
 }
 
 .main-timeline .date-outer:after {
