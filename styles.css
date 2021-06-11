@@ -13,14 +13,9 @@ header {
   display: flex;
   height: 12rem;
   padding: 2rem;
-  position: fixed;
   transition: box-shadow 500ms;
   width: 100%;
   z-index: 10;
-}
-
-.box-shadow {
-  box-shadow: 0 0 25px 0 rgba(0,0,0,0.75);
 }
 
 .my-profile {
@@ -33,14 +28,6 @@ header {
   overflow: hidden;
   transition: all 500ms linear, opacity 0s;
   width: 340px;
-}
-
-.hidden {
-  height: 100%;
-  margin: 0 !important;
-  opacity: 0;
-  visibility: hidden;
-  width: 0 !important;
 }
 
 .my-image {
@@ -56,7 +43,6 @@ header {
 /* MAIN */
 main {
   background-color: #f7f7f7;
-  padding-top: 12rem;
 }
 
 #experiencia-laboral .title-underline {
@@ -198,6 +184,17 @@ main {
 #epigram .icon:before
  {
   border-color: #D5184C;
+}
+
+#eb-moixent .date-outer:before,
+#eb-moixent .icon:before
+{
+  border-color: #eac102;
+}
+
+#eb-moixent .date-outer:after,
+#eb-moixent .icon:after {
+  border-color: #0071bc;
 }
 
 #stadler-rail .date-outer:before,
